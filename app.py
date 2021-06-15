@@ -323,6 +323,6 @@ def links():
 
 
 if __name__ == "__main__":    
-    app.run('0.0.0.0')
+    app.run(debug=False)
     # app.run(host='192.168.0.106', port=8080, debug=False )
     # ui.run()
